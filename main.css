@@ -1,0 +1,63 @@
+@font-face {
+    font-family: IR;
+    src: url(../font/IRANSansDN_FaNum-Bold.woff);
+}
+*{
+    font-family: IR;
+    direction: rtl;
+    word-spacing: 5px;
+}
+body{
+    /* width: 100%;
+    height: 100%; */
+    /* position: absolute;
+    top: 50%;
+    right: 50%; */
+    background: #131a3b;
+    color: white;
+}
+.moon{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+    position: relative;
+    margin: 50px 0;
+}
+
+.moon_s{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon_show{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 #fff;
+    margin: 20px 0;
+
+}
+.moon_text{
+    width: 100%;
+    display: flex;
+}
+.moon>div{
+    /* width: 100%;
+    height: 100%; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+        
+}
+.moon>div>p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
